@@ -11,6 +11,8 @@ Este projeto utiliza um **ESP32** para ler sensores de temperatura e umidade (DH
 
 O objetivo é demonstrar integração de sensores, atuadores e comunicação IoT usando o protocolo **MQTT**.
 
+Link do wokwi: https://wokwi.com/projects/440739787811147777
+
 ---
 
 ## Componentes
@@ -51,3 +53,4 @@ const char* WIFI_PASSWORD = "senha_da_rede";
 // Broker MQTT
 const char* MQTT_BROKER = "IP_DO_BROKER";
 const int MQTT_PORT = 1883;
+
