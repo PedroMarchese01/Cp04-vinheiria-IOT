@@ -31,7 +31,6 @@ const int ldrPin = 34;           // Pino conectado ao LDR (sensor de luminosidad
 
 // ===== Funções de configuração =====
 void setup() {
-  digitalWrite(ledPin, HIGH);    // Inicializa o LED desligado (LED interno do ESP32 é LOW ativo)
   pinMode(ldrPin, INPUT);        // Configura o pino do LDR como entrada
   Serial.begin(115200);          // Inicializa comunicação Serial a 115200 bps
   dht.begin();                   // Inicializa o sensor DHT22
