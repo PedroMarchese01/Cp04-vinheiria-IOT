@@ -13,7 +13,7 @@ Enzo Augusto Lima da Silva RM:562249
 #include <HTTPClient.h>       // Biblioteca para enviar requisições HTTP (para ThingSpeak)
 
 // ===== Configurações Wi-Fi =====
-const char* ssid = "Wokwi-GUEST"; // Nome da rede Wi-Fi que o ESP32 vai conectar
+const char* ssid = ""; // Nome da rede Wi-Fi que o ESP32 vai conectar
 const char* password = "";        // Senha da rede Wi-Fi
 
 // ===== ThingSpeak =====
