@@ -13,15 +13,13 @@ Enzo Augusto Lima da Silva RM:562249
 #include <HTTPClient.h>       // Biblioteca para enviar requisições HTTP (para ThingSpeak)
 
 // ===== Configurações Wi-Fi =====
-const char* ssid = "FIAP-IOT"; // Nome da rede Wi-Fi que o ESP32 vai conectar
-const char* password = "F!@P25.IOT";        // Senha da rede Wi-Fi
+const char* ssid = "Wokwi-GUEST"; // Nome da rede Wi-Fi que o ESP32 vai conectar
+const char* password = "";        // Senha da rede Wi-Fi
 
 // ===== ThingSpeak =====
 const char* thingspeak_api_key = "S3CC3E446CKRFI9G"; // API Key do canal ThingSpeak
 const char* thingspeak_server = "api.thingspeak.com"; // Endereço do servidor ThingSpeak
 
-// ===== LED =====
-const int ledPin = 2;           // Pino interno do ESP32 conectado ao LED
 
 // ===== DHT =====
 #define DHTPIN 4                 // Pino do ESP32 conectado ao sensor DHT22
@@ -121,5 +119,4 @@ void loop() {
     }
   }
 }
-
-
+//F!@P25.IOT
