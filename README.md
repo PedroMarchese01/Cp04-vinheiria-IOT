@@ -1,5 +1,12 @@
 # Projeto de Monitoramento de Temperatura, Umidade e Luminosidade com ESP32
 
+#Integrantes
+- Pedro Marchese, RM563339
+- Gustavo Neres, RM561785
+- Rafaell Santiago, RM563486
+- Enzo Augusto, RM562249
+
+
 ## Descrição
 
 Este projeto utiliza o microcontrolador **ESP32** para monitorar a **temperatura**, **umidade** e a **luminosidade** do ambiente em tempo real. Os dados são coletados através dos sensores **DHT22** (para temperatura e umidade) e **LDR** (para luminosidade), e enviados para a plataforma **ThingSpeak** para visualização e monitoramento online.
